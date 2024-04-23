@@ -1,0 +1,27 @@
+{
+  "user": [],
+  "product": [
+    {
+      "id": "604f",
+      "title": "top",
+      "img": "https://avatars.mds.yandex.net/i?id=cf25bda62bac7a6bd76bbaa54dd73100-4817429-images-thumbs&ref=rim&n=33&w=300&h=200",
+      "price": "1200",
+      "Category": "sari"
+    },
+    {
+      "id": "43d6",
+      "title": "top",
+      "img": "https://avatars.mds.yandex.net/i?id=cf25bda62bac7a6bd76bbaa54dd73100-4817429-images-thumbs&ref=rim&n=33&w=300&h=200",
+      "price": "1200",
+      "Category": "tops"
+    },
+    {
+      "id": "d34c",
+      "title": "dff",
+      "img": "https://avatars.mds.yandex.net/i?id=224c84275a1f289d983de3fb8489a33f2119d122-10805535-images-thumbs&n=13",
+      "price": "12323",
+      "Category": "tops"
+    }
+  ],
+  "cart":[]
+}
