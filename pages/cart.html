@@ -18,10 +18,55 @@
        .uper{
            background-color:rgba(208, 199, 247, 0.562);
        }
+       th,
+        td {
+          
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: beige;
+        }
+        table {
+            margin-left: auto;
+            margin-top: 15px;
+            margin-right: auto;
+        }
+        .title{
+            justify-content: center;
+        }
+        .image{
+            width: 75px;
+            height: 75px;
+        }
     </style>
 </head>
 <body>
     <div id="navbar"></div>
+
+
+
+    <div id="table">
+        <table class="table-bordered w-75">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Image</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="checkout"></div>
 </body>
 <script src="/js/cart.js" type="module"></script>
 </html>

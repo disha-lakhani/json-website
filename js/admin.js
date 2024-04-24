@@ -14,5 +14,8 @@ const AddProduct=(e)=>{
         Category:document.getElementById("Category").value
     }
     postData("http://localhost:3000/product",data)
+    setTimeout(() => {
+        window.location.href="/pages/product.html"
+    }, 1000);
 }
 document.getElementById("data").addEventListener("submit",AddProduct)

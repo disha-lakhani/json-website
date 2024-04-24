@@ -1,5 +1,31 @@
+import updatedata from "../api/patch.js"
+import postData from "../api/post.js"
+import deleteproduct from "../api/deleteproduct.js"
+
+const isExitcart=(data)=>{
+    fetch(`http://localhost:3000/cart/${data.id}`)
+    .then((res)=>res.json())
+    .then((res)=>{
+        res.qnt+=1
+        updatedata(res)
+    })
+
+    .catch((error)=>{
+        postData("http://localhost:3000/cart",data)
+    })
+} 
+
+
+
+
+
+
+
+
+
+
 const display = (data,id) => {
-    
+  
     document.getElementById(id).innerHTML = ""
     data.map((ele) => {
 
@@ -16,8 +42,15 @@ const display = (data,id) => {
 
         let btn=document.createElement("button")
         btn.innerHTML="BUY"
+        btn.addEventListener("click",()=>{
+            isExitcart({...ele,qty:1})
+        })
         let btn1=document.createElement("button")
         btn1.innerHTML="DELETE"
+        btn1.addEventListener("click",()=>{
+            deleteproduct(ele.id)
+        })
+
         let div = document.createElement("div")
         div.append(img,title, price, Category,btn,btn1)
       
