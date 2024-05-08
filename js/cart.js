@@ -87,10 +87,10 @@ const uimaker=(data,id)=>{
     let btn4=document.createElement("button")
         let p=document.createElement("p")
         p.innerHTML=total
-        p.setAttribute("class","text")
+        // p.setAttribute("class","text")
 
         btn4.innerHTML="checkout"
-        btn4.setAttribute("class","text")
+        // btn4.setAttribute("class","text")
 
     document.getElementById("checkout").append(p,btn4)
 }

@@ -1,20 +1,15 @@
 {
   "user": [],
-  "product": [
+  "product": [],
+  "cart": [
     {
-      "id": "e54b",
-      "title": "flower",
-      "img": "https://avatars.mds.yandex.net/i?id=cf25bda62bac7a6bd76bbaa54dd73100-4817429-images-thumbs&ref=rim&n=33&w=300&h=200",
-      "price": "1200",
-      "Category": "kurti"
-    },
-    {
-      "id": "99c8",
-      "title": "heart",
-      "img": "https://avatars.mds.yandex.net/i?id=224c84275a1f289d983de3fb8489a33f2119d122-10805535-images-thumbs&n=13",
-      "price": "1500",
-      "Category": "sari"
+      "id": "4fd4",
+      "title": "saree",
+      "img": "https://avatars.mds.yandex.net/i?id=8936838f87c715a4b6564bff29ab5df7047891c1-10144254-images-thumbs&n=13",
+      "price": "2000",
+      "Category": "sari",
+      "qty": 1,
+      "qnt": 1
     }
-  ],
-  "cart": []
+  ]
 }
